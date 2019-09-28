@@ -1,0 +1,36 @@
+@import "variables";
+
+body {
+  background: $main-color;
+  color: #fff;
+}
+
+@mixin boton {
+  width: 200px;
+  height: 48px;
+  border-radius: 60px;
+  color: #fff;
+  }
+
+header {
+  background-color: red;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton1 {
+  @include boton;
+  background-color: blue;
+}
+
+.boton2 {
+  @include boton;
+  background-color: red;
+}
+
+.boton3 {
+  @include boton;
+  background-color: pink;
+}

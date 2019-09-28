@@ -1,0 +1,36 @@
+body {
+  background: #7452a3;
+  color: #fff;
+}
+
+header {
+  background-color: red;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton1 {
+  width: 200px;
+  height: 48px;
+  border-radius: 60px;
+  color: #fff;
+  background-color: blue;
+}
+
+.boton2 {
+  width: 200px;
+  height: 48px;
+  border-radius: 60px;
+  color: #fff;
+  background-color: red;
+}
+
+.boton3 {
+  width: 200px;
+  height: 48px;
+  border-radius: 60px;
+  color: #fff;
+  background-color: pink;
+}
